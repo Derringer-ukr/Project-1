@@ -51,12 +51,18 @@
     }
 }
 
-.wrapper-list:nth-child(3) h2 {
+.wrapper-list:nth-child(3) h3 {
+    min-width: 328px;
     width: 33.889vw;
 
     @media screen and (max-width: $tablet-start) {
     
         width: auto;
+        min-width: auto;
+    }
+
+    @media screen and (min-width: $desktop-big-start) {
+        min-width: auto;
     }
 }
 

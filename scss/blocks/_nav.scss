@@ -11,6 +11,7 @@
 
         @media screen and (max-width: $tablet-start) {
             visibility: hidden;
+            min-height: 200px;
             height: 30vh;
             width: 40.02vw;
             min-width: 220px;

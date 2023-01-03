@@ -55,6 +55,9 @@ p {
     line-height: 3.333vw;
   }
 }
+.title-hidden {
+  display: none;
+}
 
 .accent-words {
   font-family: "Playfair Display";
@@ -462,6 +465,7 @@ body::-webkit-scrollbar {
   width: 89.6%;
   top: 5%;
   left: 3%;
+  border: none;
 }
 
 .footer {
@@ -542,6 +546,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 768px) {
   .nav__list {
     visibility: hidden;
+    min-height: 200px;
     height: 30vh;
     width: 40.02vw;
     min-width: 220px;
@@ -823,12 +828,19 @@ body::-webkit-scrollbar {
   }
 }
 
-.wrapper-list:nth-child(3) h2 {
+.wrapper-list:nth-child(3) h3 {
+  min-width: 328px;
   width: 33.889vw;
 }
 @media screen and (max-width: 768px) {
-  .wrapper-list:nth-child(3) h2 {
+  .wrapper-list:nth-child(3) h3 {
     width: auto;
+    min-width: auto;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .wrapper-list:nth-child(3) h3 {
+    min-width: auto;
   }
 }
 
