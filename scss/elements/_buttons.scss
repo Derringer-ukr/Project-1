@@ -118,25 +118,8 @@
         color: $color-hover;
     }
 
-    // &:hover + .btn::after {
-    //     background-color: blue;
-    //     background: green;
-    // }
-
     &:hover::after {
         background: $color-hover;
     }
-
-
-    
-    // &-background {
-    //     position: absolute;
-    //     left: 8.2%;
-    //     right: 0%;
-    //     top: 45.83%;
-    //     bottom: 0%;
-    //     background: #F1897B;
-    //     opacity: 0.3;
-    // }
 }
 

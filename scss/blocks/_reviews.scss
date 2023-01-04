@@ -56,23 +56,12 @@
         @media screen and (min-width: $desktop-big-start) {
             height: 23.611vw;
          }
-
-        // @media screen and (max-width: $tablet-start) {
-        //     text-align: center;  
-        //     justify-content: center;
-        //     min-width: 255px;
-        //     width: 47.694vw;
-        // }
     }
 
     &-item {
         background-image: url(../img/bg2.png);
-        min-width: 290px;
-        // min-height: 280px;    
+        min-width: 290px;  
         min-height: 250px;
-        // width: 20.139vw;
-        // height: 19.444vw;
-        // background-size: contain;
         width: 20%;
         flex-grow: 1;
         background-size: cover;
@@ -82,25 +71,19 @@
         flex-direction: column;
         justify-content: space-between;
         z-index: -1;
-        // margin-bottom: 20px;
-        // margin: 0 30px 20px 0;
 
         @media screen and (max-width: $tablet-start) {
             min-width: 235px;
             min-height: 190px;
             padding: 14px;
             width: auto;
- 
         }
 
-        
         &:first-child {
             background-image: url(../img/bg1.png);
         }
         &:last-child {
-            background-image: url(../img/bg3.png);
-            
+            background-image: url(../img/bg3.png);  
         }
-
     }
 }

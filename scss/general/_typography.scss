@@ -333,6 +333,11 @@ textarea.input {
             letter-spacing: 0.04em;
             line-height: 20px;   
         }
+
+        @media screen and (min-width: $desktop-big-start) {
+            font-size: 0.972vw;
+            line-height: 1.389vw;
+        }
     }
 
     &__notification, &__creator-text {
@@ -344,6 +349,11 @@ textarea.input {
         @media screen and (max-width: $tablet-start) {
             font-size: 12px;
             line-height: 20px;   
+        }
+
+        @media screen and (min-width: $desktop-big-start) {
+            font-size: 0.972vw;
+            line-height: 1.389vw;
         }
     }
 }

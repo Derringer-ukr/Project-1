@@ -377,6 +377,12 @@ textarea.input {
     line-height: 20px;
   }
 }
+@media screen and (min-width: 1441px) {
+  .footer__creator-name {
+    font-size: 0.972vw;
+    line-height: 1.389vw;
+  }
+}
 .footer__notification, .footer__creator-text {
   font-weight: 300;
   font-size: 14px;
@@ -387,6 +393,12 @@ textarea.input {
   .footer__notification, .footer__creator-text {
     font-size: 12px;
     line-height: 20px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .footer__notification, .footer__creator-text {
+    font-size: 0.972vw;
+    line-height: 1.389vw;
   }
 }
 
